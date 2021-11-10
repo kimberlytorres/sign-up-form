@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h1>Create account</h1>
+        <p>Already have an account? <a href="#">Sign in</a></p>
+
+        <fieldset>
+            <label for="uname" hidden>Username</label>
+            <input type="text" placeholder="Username" name="uname" required class="input-area" id="first">
+        </fieldset>
+        <fieldset>
+            <label for="fname" hidden>First name</label>
+            <input type="text" placeholder="First name" name="fname" required class="input-area">
+            <label for="lname" hidden>Last name</label>
+            <input type="text" placeholder="Last name" name="lname" required class="input-area"> 
+        </fieldset>
+        <fieldset>
+            <label for="email" hidden>E-mail</label>
+            <input type="email" placeholder="E-mail" name="email" required class="input-area" id="last">
+        </fieldset>
+
+        <button type="submit">Sign up <i class="fas fa-arrow-right"></i></button> <br><br>
+
+        <input type="checkbox" id="check">I have read and agree to the <a href="#">Terms of Service</a>
+    </main>
+
+    <script src="https://kit.fontawesome.com/932d42d91b.js" crossorigin="anonymous"></script>
+</body>
+</html>
